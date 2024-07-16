@@ -109,7 +109,7 @@ Testing
 
 ![img_5.png](files/img_5.png)
 
-### Debugging scheduler every 24 seg for testing
+### Debugging scheduler every 60 seg for testing
 
 ![img_7.png](files/img_7.png)
 
