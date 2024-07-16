@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "56f8b2ef-c15f-4b01-9844-1a6e042d65df",
+		"name": "Metro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27281214"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/transactions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"transaction_id\": \"12345\",\r\n        \"timestamp\": \"2024-07-15T12:00:00Z\",\r\n        \"device_number\": \"device123\",\r\n        \"user_id\": \"user123\",\r\n        \"geo_position\": \"40.7128,-74.0060\",\r\n        \"amount\": 100.0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
