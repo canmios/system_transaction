@@ -124,6 +124,10 @@ A reactive programming has been implemented with Quarkus to improve the concurre
 has been configured to guarantee the transaction load, also the implementation of java 21 that significantly improves 
 its virtual machine with a thread management with an improvement in the performance and thread management in the JVM. In addition, a resilient Circuit breaker has been implemented that will allow to manage or stop the loads when the system cannot support it.
 
+### MongoDB Index Creation 
+Run this in the mongoDB client
+![img.png](files/img11.png)
+
 ### Configuration Quarkus
 
 ![img_8.png](files/img_8.png)
